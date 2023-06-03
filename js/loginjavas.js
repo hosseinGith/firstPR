@@ -8,7 +8,7 @@ const title = document.querySelector('#title')
 const title2 = document.querySelector('.title')
 const box = document.querySelector('form')
 const day2 = document.querySelector('#day')
-
+document.cookie.clear()
 const hossein = {
     name: 'hossein',
     pass: '123456789'

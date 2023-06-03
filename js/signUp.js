@@ -11,7 +11,7 @@ const title = document.querySelector('#title')
 const title2 = document.querySelector('.title')
 const box = document.querySelector('form')
 const text = document.querySelector('#text')
-
+document.cookie = ' '
 //----------------------------------functions---------------------------------
 
 

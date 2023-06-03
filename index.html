@@ -9,23 +9,34 @@
     <link rel="icon" href="css/d.jpg">
     <title>Login</title>
 </head>
-
 <body>
+
     <div class="day">
         <p id="day"></p>
     </div>
+
+    <form>
+        <div class="cantainer">
+            <div class="text">
+                <label style="margin: 10px;" for="name">
+                    Name
+                </label>
+                <input type="text" id="name" placeholder="Enter your Name">
+                <br>
+                <label for="password">
+                    Password
+                </label>
+                <input type="password" id="password" placeholder="Enter your Password">
+            </div>
+            <div class="button"><button id="btn" type="button">Login</button></div>
+            <p style="display: inline;">Are you not have the Account :</p><a href="html/signUp.html">SignUp</a> </div>
+    </form>
     <div id="container">
         <div class="title">
             <p id="title">check your pass or name and try agine</p>
         </div>
-        <div id="button"><button id="d">Hide</button> </div>
+        <div id="button"><button id="hide">Hide</button> </div>
     </div>
-    <form>
-        <div class="cantainer">
-            <div class="text"><label style="margin: 10px;" for="name">Name</label><input type="text" id="name" placeholder="Enter your Name"><br><label for="password">Password</label><input type="password" id="password" placeholder="Enter your Password"></div>
-            <div class="button"><button id="btn" type="button">Login</button></div>
-            <p>Are you not have the Account :</p><a href="html/signUp.html">SignUp</a> </div>
-    </form>
     <script src="js/loginjavas.js"></script>
 </body>
 

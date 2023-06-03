@@ -23,7 +23,6 @@ function Hide() {//---------------=for hide the box -----------------
 
 function content(){//--------------for show the box-------------------
     container.style.display = 'flex'
-    container.style.marginTop = '200px';
     hide.style.display = 'none'
 }
 //--------------------------------------keys--------------------------------------

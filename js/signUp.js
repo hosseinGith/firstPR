@@ -32,6 +32,7 @@ function Login() {
     body.style.background = '#8c8d8d';
     container.style.display = 'none';
     box.style.display = 'block';
+    localStorage.clear()
     }, 900)
     setTimeout(() => {;
         window.location = 'main.html';

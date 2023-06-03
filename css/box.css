@@ -72,7 +72,8 @@ button{
     align-items: center;
     justify-content: center;
     display: none;
-    border-radius: 16px;
+    border-radius: 16px;    
+    margin-top: 200px;
 }
 .title {
     width: 50%;
@@ -111,5 +112,8 @@ button{
     button {
         padding: 8px;
         font-size: 11px;
+    }
+    #container {
+        margin-top: 150px;
     }
 }

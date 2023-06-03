@@ -12,7 +12,7 @@ const drawBtn = document.querySelector('#draw')
 const img = document.querySelector('img')
 //-------------------^varable^^---------------
 let abu ='<h5>:وایگارد<br>سرویس وایگارد از سرعت بالا وامنیت خوب برخوردار می باشد , همچنین با تمامی اپراتور ها در حال حاضر سازگاری دارد و موردی مبتنی بر ناسازگاری آن گزارش نشده است </h5>' 
-let psh = '<h5> برای دیدن کانال<br><a href="#" style="text-decoration: none;float:left">@wiregurd_shop</a><br> همچنین برای پیام دادن به پیشتیبانی <a href="#" style="text-decoration: none;float:left">@WG_SHOP</a></h5>'
+let psh = '<h5> :برای دیدن کانال<br><a href="#" style="text-decoration: none;float:left">@wiregurd_shop</a><br> :همچنین برای پیام دادن به پیشتیبانی <br><a href="#" style="text-decoration: none;float:left">@WG_SHOP</a></h5>'
 
 //--------------------------------------function--------------------------------------
 function Hide() {//---------------=for hide the box -----------------

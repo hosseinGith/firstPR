@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: tahoma;
+    align-items: center;
+    transition: all .4s;
+}
+body{
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #00b7ff;
+    display: flex;
+    width: 100%;
+}
+::selection{
+    display: flex;
+}
+.container{
+    margin-top: 80px;
+    width: 80%;
+}
+
+
+.tools{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border: .1px solid;
+    border-radius: 16px 16px 0 0;
+    border-bottom:0 solid ;
+    background: #fffefe;
+}
+
+.burshE{
+    width: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    border: 0;
+    padding: 5px;
+}
+.button{
+    width: 18%;
+}
+.clear,.save{
+    margin: 0 20px;
+    font-size: 30px;
+}
+.brush,.eraser{
+    margin-left:50px;
+    font-size:23px;
+}
+
+i:hover{
+    opacity: .5;
+    cursor: pointer;
+}
+.color{
+    border: 0;
+    width: 20px;
+    height: 20px;
+}
+.lineDesign{
+    width: 30%;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+}
+canvas{
+    border-radius:0 0 16px 16px ;
+    width: 100%;
+    height: 400px;
+    border: .1px solid;
+    columns: 100px;
+    background: #fff;
+}
+
+
+
+.active{
+    color: #02a2ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    padding: 10px;
+    margin: 50px 0 ;
+    transition: all 1s;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+.love{
+    width: 300px;
+    height: 300px;
+    background: red;
+    clip-path: polygon(24% 9%, 7% 24%, 14% 54%, 26% 72%, 50% 100%, 52% 100%, 69% 81%, 81% 62%, 92% 39%, 90% 21%, 79% 7%, 50% 22%);
+    text-align: center;
+}
+.love5{
+    display: none;
+}
+.love4{
+    display: none;
+}.love3{
+    display: none;
+}.love2{
+    display: none;
+}.love1{
+    display: none;
+    animation: textd 1s infinite linear;
+}
+#end{
+    color: white;
+    font-size: 100px;
+    position: fixed;
+    margin-top: 120px;
+    display: none;
+}
+.show{
+    display: block;
+}
+.s{
+    display: flex;
+
+} */

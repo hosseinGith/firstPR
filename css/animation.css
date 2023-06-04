@@ -82,88 +82,35 @@ canvas{
 .active{
     color: #02a2ff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* *{
-    padding: 10px;
-    margin: 50px 0 ;
-    transition: all 1s;
-}
-
-body{
-    background-color: black;
+.loading{
+    height: 100vh;
+    width: 100%;
+    background: white;
     display: flex;
     justify-content: center;
-
-}
-.love{
-    width: 300px;
-    height: 300px;
-    background: red;
-    clip-path: polygon(24% 9%, 7% 24%, 14% 54%, 26% 72%, 50% 100%, 52% 100%, 69% 81%, 81% 62%, 92% 39%, 90% 21%, 79% 7%, 50% 22%);
-    text-align: center;
-}
-.love5{
-    display: none;
-}
-.love4{
-    display: none;
-}.love3{
-    display: none;
-}.love2{
-    display: none;
-}.love1{
-    display: none;
-    animation: textd 1s infinite linear;
-}
-#end{
-    color: white;
-    font-size: 100px;
     position: fixed;
-    margin-top: 120px;
-    display: none;
+    align-items: center;
 }
-.show{
-    display: block;
-}
-.s{
+.rotater{
+    padding: 50px;
+    border: 20px solid #b4b4b4;
+    border-radius: 50%;
     display: flex;
-
-} */
+    align-items: center;
+    justify-content: center;
+}
+.rotate{
+    padding: 50px;
+    border-top: 20px solid #02eeff;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-radius: 50%;
+    position: fixed;
+    animation: rtt 1.8s  infinite;
+}
+@keyframes rtt{
+    to{
+        rotate:360deg;
+    }
+}

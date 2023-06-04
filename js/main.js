@@ -27,6 +27,7 @@ function content(){//--------------for show the box-------------------
 }
 //--------------------------------------keys--------------------------------------
 Btn2.addEventListener('click', () => { Hide() })
+if(window.platform == 'Win32' || window.platform == 'Win64'){drawBtn.style.display = 'flex'}
 drawBtn.addEventListener('click',()=>{window.location = 'animation.html'})
 buy.addEventListener('click', () => { window.location = 'https://web.telegram.org/k/' })//-------------------for go to telegram websit---------------
 

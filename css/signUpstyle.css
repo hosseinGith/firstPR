@@ -118,6 +118,38 @@ a {
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+.loading{
+    height: 100vh;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    align-items: center;
+}
+.rotater{
+    padding: 50px;
+    border: 20px solid #b4b4b4;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rotate{
+    padding: 50px;
+    border-top: 20px solid #02eeff;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-radius: 50%;
+    position: fixed;
+    animation: rtt 1.8s  infinite;
+}
+@keyframes rtt{
+    to{
+        rotate:360deg;
+    }
+}
 @media screen and (min-width:300px) and (max-width:480px){
     form{
         width:100%;

@@ -84,7 +84,7 @@ button{
     justify-content: center;
 }
 #draw{
-    display: none;
+    display: inline;
 }
 
 .list{

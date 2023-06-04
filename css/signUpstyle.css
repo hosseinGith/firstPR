@@ -6,6 +6,7 @@
 
 body {
     background: #8c8d8d;
+    height:100vh;
     display: flex;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items: center;

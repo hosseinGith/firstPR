@@ -8,6 +8,11 @@ const title = document.querySelector('#title')
 const title2 = document.querySelector('.title')
 const box = document.querySelector('form')
 const day2 = document.querySelector('#day')
+const loading = document.querySelector('.loading')
+function lod(){
+    body.style.height = '80vh'
+    loading.style.display = 'none'
+}
 document.cookie = ' '
 const hossein = {
     name: 'hossein',

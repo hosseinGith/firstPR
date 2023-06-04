@@ -1,4 +1,3 @@
-import num from './signUp.js'
 const canvas = document.querySelector('canvas')
 const ctx = canvas.getContext('2d')
 const eraser = document.querySelector('.eraser')
@@ -75,7 +74,7 @@ save.addEventListener('click',()=>{
     save.classList.add('active')
     setTimeout(()=>{ save.classList.remove('active')},100)
     let link = document.createElement('a')
-    link.download =  `${num}`
+    link.download =  `${Date.now()}`
     link.href = canvas.toDataURL()
     link.click()
 

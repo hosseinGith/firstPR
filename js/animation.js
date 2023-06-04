@@ -1,3 +1,4 @@
+import num from './signUp.js'
 const canvas = document.querySelector('canvas')
 const ctx = canvas.getContext('2d')
 const eraser = document.querySelector('.eraser')
@@ -74,47 +75,11 @@ save.addEventListener('click',()=>{
     save.classList.add('active')
     setTimeout(()=>{ save.classList.remove('active')},100)
     let link = document.createElement('a')
-    link.download =  `${Date.now()}`
+    link.download =  `${num}`
     link.href = canvas.toDataURL()
     link.click()
 
 })
-
-
-
-
-
-// const love = document.querySelector('.love')
-// const textA = document.querySelector('.love1')
-// const textB = document.querySelector('.love2')
-// const textC = document.querySelector('.love3')
-// const textD = document.querySelector('.love4')
-// const textE = document.querySelector('.love5')
-// const end = document.querySelector('#end')
-// love.addEventListener('click',()=>{
-//     document.body.style.transition = 'all 5s'
-//     textA.classList.add('show')
-//     setTimeout(()=>{
-//     textA.classList.remove('show')
-//     textB.classList.add('show')
-//     },1500)
-//     setTimeout(()=>{
-//         textB.classList.remove('show')
-//         textC.classList.add('show')
-//     },2500)
-//     setTimeout(()=>{
-//         textC.classList.remove('show')
-//         textD.classList.add('show')
-//     },5000)
-//     setTimeout(()=>{
-//         textD.classList.remove('show')
-//         textE.classList.add('show')
-//     },8000)
-//     setTimeout(() => {
-//         textE.classList.remove('show')
-//         end.style.display = 'flex'
-//     }, 10000);
-// })
 
 
 

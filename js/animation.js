@@ -16,7 +16,7 @@ function win(){
     canvas.height = canvas.offsetHeight
     ctx.fillStyle = 'white'
     ctx.fillRect(0,0,canvas.width,canvas.height)
-    navigator.platform != 'Win32' || navigator.platform == 'Win64'  ? alert('your device didn`t suppurt this page') : '';
+    navigator.platform != 'Win32' || navigator.platform == 'Win64'  ? alert('your device doesn`t suppurt this page') : '';
 
 }
 function draw(e){

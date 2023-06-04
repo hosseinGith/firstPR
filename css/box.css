@@ -11,6 +11,7 @@
 
 body {
     top: 0;
+    height:100vh;
     background: #6e6e6e8f;
     background-image: url(d.jpg);
     background-blend-mode: difference;

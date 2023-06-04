@@ -1,3 +1,4 @@
+if(window.location == 'https://mysite-01.netlify.app/html/signup'){
 const nam = document.querySelector('#name')
 const email = document.querySelector('#email')
 const password = document.querySelector('#pass')
@@ -100,3 +101,6 @@ Btn.addEventListener('click', enter)
 Btn21.addEventListener('click',signUp)
 
 //---------------------------------Cookie--------------------
+}
+let num = localStorage.getItem('name')
+export default num

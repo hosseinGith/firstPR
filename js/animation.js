@@ -6,7 +6,12 @@ const brushColor = document.querySelector('.color')
 const range = document.querySelector('.lineWidth')
 const clear = document.querySelector('.clear')
 const save = document.querySelector('.save')
-
+const loading = document.querySelector('.loading')
+const body = document.querySelector('body')
+function lod(){
+    body.style.height = '80vh'
+    loading.style.display = 'none'
+}
 let drawing = false
 let currenColor = ''
 let brushWidth = 5

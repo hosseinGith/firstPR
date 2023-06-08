@@ -151,16 +151,7 @@ a {
     align-items: center;
     justify-content: center;
 }
-.rotate{
-    padding: 50px;
-    border-top: 20px solid #02eeff;
-    border-bottom: 20px solid transparent;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-radius: 50%;
-    position: fixed;
-    animation: rtt 1.8s  infinite;
-}
+
 .game{
     positon:absolute;
     top:0;

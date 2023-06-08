@@ -111,12 +111,3 @@ switch (new Date().getDay()) {
 }
 day2.innerHTML = day
 day2.style.display = 'none'
- const Banner = ()=>{
-    return(
-        <div>
-            <h1>Hi!</h1>
-        </div>
-        
-        )
- }
- ReactDOM.render(<Banner/>,document.querySelelctor('.game'))

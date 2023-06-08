@@ -161,6 +161,13 @@ a {
     position: fixed;
     animation: rtt 1.8s  infinite;
 }
+.game{
+    positon:absolute;
+    top:0;
+    margin:auto;
+    display:flex;
+    align-self:center;
+}
 @keyframes rtt{
     to{
         rotate:360deg;
